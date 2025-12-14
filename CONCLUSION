@@ -1,0 +1,6 @@
+print("""
+Conclusion:
+This project analyzes sales and customer data using Python.
+The generated dataset is used in Power BI to create an interactive dashboard.
+The insights help understand sales performance, regional trends, and customer behavior.
+""")
