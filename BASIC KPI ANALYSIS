@@ -1,0 +1,6 @@
+total_sales = df["Sales"].sum()
+total_profit = df["Profit"].sum()
+total_orders = df["Order ID"].nunique()
+print("Total Sales :", round(total_sales, 2))
+print("Total Profit:", round(total_profit, 2))
+print("Total Orders:", total_orders)
