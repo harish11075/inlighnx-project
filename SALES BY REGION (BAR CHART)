@@ -1,0 +1,6 @@
+region_sales = df.groupby("Region")["Sales"].sum()
+region_sales.plot(kind="bar")
+plt.title("Sales by Region")
+plt.xlabel("Region")
+plt.ylabel("Sales Amount")
+plt.show()
